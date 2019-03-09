@@ -14,6 +14,12 @@
 		9B5778EC223433EA000C8DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5778EA223433EA000C8DD8 /* LaunchScreen.storyboard */; };
 		9B5778F7223433EA000C8DD8 /* Day6_W2019_iOS_ViewTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5778F6223433EA000C8DD8 /* Day6_W2019_iOS_ViewTableTests.swift */; };
 		9B577902223433EA000C8DD8 /* Day6_W2019_iOS_ViewTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B577901223433EA000C8DD8 /* Day6_W2019_iOS_ViewTableUITests.swift */; };
+		9B57791322343EFF000C8DD8 /* mx.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B57790F22343EFF000C8DD8 /* mx.png */; };
+		9B57791422343EFF000C8DD8 /* br.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B57791022343EFF000C8DD8 /* br.png */; };
+		9B57791522343EFF000C8DD8 /* us.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B57791122343EFF000C8DD8 /* us.png */; };
+		9B57791622343EFF000C8DD8 /* ca.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B57791222343EFF000C8DD8 /* ca.png */; };
+		9B57791922344075000C8DD8 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B57791822344075000C8DD8 /* Country.swift */; };
+		9B57791B22344111000C8DD8 /* CountryWithFlagsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B57791A22344111000C8DD8 /* CountryWithFlagsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		9B5778FD223433EA000C8DD8 /* Day6_W2019_iOS_ViewTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day6_W2019_iOS_ViewTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B577901223433EA000C8DD8 /* Day6_W2019_iOS_ViewTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6_W2019_iOS_ViewTableUITests.swift; sourceTree = "<group>"; };
 		9B577903223433EA000C8DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B57790F22343EFF000C8DD8 /* mx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mx.png; sourceTree = "<group>"; };
+		9B57791022343EFF000C8DD8 /* br.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = br.png; sourceTree = "<group>"; };
+		9B57791122343EFF000C8DD8 /* us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = us.png; sourceTree = "<group>"; };
+		9B57791222343EFF000C8DD8 /* ca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ca.png; sourceTree = "<group>"; };
+		9B57791822344075000C8DD8 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		9B57791A22344111000C8DD8 /* CountryWithFlagsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryWithFlagsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,10 @@
 		9B5778D5223433E9000C8DD8 = {
 			isa = PBXGroup;
 			children = (
+				9B57791022343EFF000C8DD8 /* br.png */,
+				9B57791222343EFF000C8DD8 /* ca.png */,
+				9B57790F22343EFF000C8DD8 /* mx.png */,
+				9B57791122343EFF000C8DD8 /* us.png */,
 				9B5778E0223433E9000C8DD8 /* Day6_W2019_iOS_ViewTable */,
 				9B5778F5223433EA000C8DD8 /* Day6_W2019_iOS_ViewTableTests */,
 				9B577900223433EA000C8DD8 /* Day6_W2019_iOS_ViewTableUITests */,
@@ -97,12 +113,15 @@
 		9B5778E0223433E9000C8DD8 /* Day6_W2019_iOS_ViewTable */ = {
 			isa = PBXGroup;
 			children = (
+				9B57791722343F91000C8DD8 /* Images */,
 				9B5778E1223433E9000C8DD8 /* AppDelegate.swift */,
 				9B5778E3223433E9000C8DD8 /* ViewController.swift */,
+				9B57791A22344111000C8DD8 /* CountryWithFlagsTableViewController.swift */,
 				9B5778E5223433E9000C8DD8 /* Main.storyboard */,
 				9B5778E8223433EA000C8DD8 /* Assets.xcassets */,
 				9B5778EA223433EA000C8DD8 /* LaunchScreen.storyboard */,
 				9B5778ED223433EA000C8DD8 /* Info.plist */,
+				9B57791822344075000C8DD8 /* Country.swift */,
 			);
 			path = Day6_W2019_iOS_ViewTable;
 			sourceTree = "<group>";
@@ -123,6 +142,13 @@
 				9B577903223433EA000C8DD8 /* Info.plist */,
 			);
 			path = Day6_W2019_iOS_ViewTableUITests;
+			sourceTree = "<group>";
+		};
+		9B57791722343F91000C8DD8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B57791622343EFF000C8DD8 /* ca.png in Resources */,
+				9B57791422343EFF000C8DD8 /* br.png in Resources */,
 				9B5778EC223433EA000C8DD8 /* LaunchScreen.storyboard in Resources */,
 				9B5778E9223433EA000C8DD8 /* Assets.xcassets in Resources */,
+				9B57791522343EFF000C8DD8 /* us.png in Resources */,
+				9B57791322343EFF000C8DD8 /* mx.png in Resources */,
 				9B5778E7223433E9000C8DD8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B57791B22344111000C8DD8 /* CountryWithFlagsTableViewController.swift in Sources */,
 				9B5778E4223433E9000C8DD8 /* ViewController.swift in Sources */,
+				9B57791922344075000C8DD8 /* Country.swift in Sources */,
 				9B5778E2223433E9000C8DD8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
